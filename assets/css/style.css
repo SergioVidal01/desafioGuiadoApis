@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    
+   
+    flex-direction: column; /* Colocamos el contenido en columnas */   
+    margin-left: 500px; /* Eliminar el margen predeterminado */
+    margin-right: 400px;
+    background-color: #f4f4f4; /* Color de fondo */
+    border: 2px solid black; /* Borde negro alrededor del documento */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espacio interno alrededor del contenido */
+}
+
+.user {
+    
+    padding: 10px; /* Espacio interno */
+    background-color: white; /* Fondo blanco para el usuario */
+    width: 300px; /* Ancho fijo */
+    
+    border-radius: 5px; /* Bordes redondeados para los usuarios */
+}
+
+img {
+    vertical-align: middle; /* Alinear imagen con el texto */
+    margin-right: 10px; /* Separación entre imagen y texto */
+    width: 100px; /* Ancho de la imagen */
+    height: 100px; /* Altura de la imagen */
+}
+
+.user-name {
+    font-weight: bold; /* Nombre en negrita */
+}
+
+h1 {
+    text-align: center; /* Centrar el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
